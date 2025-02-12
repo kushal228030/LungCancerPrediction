@@ -8,7 +8,7 @@ import joblib
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
-loaded_model = joblib.load("/lung_cancer_log_reg.pkl")
+loaded_model = joblib.load("lung_cancer_log_reg.pkl")
 
 
 # Define class names
